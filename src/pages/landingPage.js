@@ -3,12 +3,11 @@ import { Grid, Stack } from '@mui/material';
 import { StyledBox, StyledGridContainer, StyledBodyTypography, StyledTitleTypography, StyledSubTitleTypography } from './styled';
 import NavBar from '../components/navBar/navBar';
 import Socials from '../components/socials/socials'
+import About from '../components/about/about';
+import Experience from '../components/experience/experience';
 
 
 function LandingPage() {
-
-    const aboutUs = "In 2019, I won a scholarship to study BSc physics in Abu Dhabi, United Arab Emirates. \n Seeking opportunity and adventure, I move half way around the world at the age of 19. \n Alongside my studies, I founded an auto tech startup , called Dismantly, that ignited my passion for software. \n Following this passion allowed me to self-learn the software engineering process (ReactJs, Python, AWS...). \n Now it has led me to one last scholarship and adventure to study MSc computer science in Saudi Arabia.";
-
   return (
     <StyledBox>
         <StyledGridContainer container spacing={2}>
@@ -27,18 +26,13 @@ function LandingPage() {
                     <Socials />
                 </Stack>
             </Grid>
-            <Grid item xs={12} sm={12} md={6} lg={6} xl={6} alignItems={'flex-start'}>
-                <Stack>
-                    <StyledBodyTypography isAlternateColor>About</StyledBodyTypography>
-                    {aboutUs.split('\n').map((line, index) => (
-                        <React.Fragment key={index}>
-                            <StyledBodyTypography>
-                                {line}
-                            </StyledBodyTypography>
-                            {index !== 4 ?  <br /> : null}
-                        </React.Fragment>
-                    ))}
-                </Stack>
+            <Grid container spacing={2} xs={12} sm={12} md={6} lg={6} xl={6} alignItems={'flex-start'} style={{ height: '100vh', overflowY: 'auto', margin:'20px 0' }}>
+                <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+                    <About />
+                </Grid>
+                <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+                    <Experience /> 
+                </Grid>
             </Grid>
         </StyledGridContainer>
     </StyledBox>
