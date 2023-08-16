@@ -1,7 +1,7 @@
 import { Box, Grid, Typography } from '@mui/material';
 import styled from '@emotion/styled';
 
-export const StyledBox = styled(Box)({
+export const StyledBox = styled(Box)(({ theme }) => ({
   height: '100%',
   overflow: 'hidden',
   width: '100%',
@@ -10,7 +10,20 @@ export const StyledBox = styled(Box)({
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'flex-start',
-});
+  [theme.breakpoints.down('md')]: {
+    overflow: 'auto',
+  },
+}));
+
+export const StyledGrid = styled(Grid)(({ theme }) => ({
+  alignItems: 'flex-start',
+  overflowY: 'auto',
+  margin: '20px 0',
+  height: '100vh',
+  [theme.breakpoints.down('md')]: {
+    overflowY: 'hidden',
+  },
+}));
 
 export const StyledGridContainer = styled(Grid)({
     width: '100%',

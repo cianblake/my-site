@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Stack } from '@mui/material';
-import { StyledBox, StyledGridContainer, StyledBodyTypography, StyledTitleTypography, StyledSubTitleTypography } from './styled';
+import { StyledBox, StyledGridContainer, StyledBodyTypography, StyledTitleTypography, StyledSubTitleTypography, StyledGrid } from './styled';
 import NavBar from '../components/navBar/navBar';
 import Socials from '../components/socials/socials'
 import About from '../components/about/about';
@@ -26,14 +26,14 @@ function LandingPage() {
                     <Socials />
                 </Stack>
             </Grid>
-            <Grid container spacing={2} xs={12} sm={12} md={6} lg={6} xl={6} alignItems={'flex-start'} style={{ height: '100vh', overflowY: 'auto', margin:'20px 0' }}>
+            <StyledGrid container spacing={2} xs={12} sm={12} md={6} lg={6} xl={6}>
                 <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
                     <About />
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
                     <Experience /> 
                 </Grid>
-            </Grid>
+            </StyledGrid>
         </StyledGridContainer>
     </StyledBox>
   );
