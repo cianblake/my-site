@@ -15,7 +15,7 @@ function Listing({ duration, title, subtitle, tasks }) {
                 <StyledBodyTypography>{subtitle}</StyledBodyTypography>
                 <DottedDivider />
                 {tasks.map((task, index) => (
-                    <Stack key={index}>
+                    <Stack key={index} gap='4px'>
                         <StyledBodyTypography>{task}</StyledBodyTypography>
                         <DottedDivider />
                     </Stack>
