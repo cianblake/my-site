@@ -7,7 +7,7 @@ import { StyledStack } from './styled.js';
 
 function Projects() {
   return (
-    <Stack gap="8px">
+    <Stack >
         <StyledBodyTypography isAlternateColor>Projects</StyledBodyTypography>
         <StyledStack>
           {projects.map((data, index) => (
