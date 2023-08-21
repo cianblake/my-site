@@ -1,47 +1,38 @@
-export const experience = [
+export const projects = [
     {
-        'duration': '2020 - Present',
-        'title': 'Founder - Dismantly',
-        'subtitle': 'Software Engineer',
-        'tasks': [
-            'Architecting scalable cloud-native backend for a multi-tenant platform with AWS (Lambda, S3, SAM...).',
-            'Implementing lightweight micro-frontend with ReactJS, MUI, REDUX, React Query and TypeScript.',
-            'Training a random forest machine learning model to suggest the optimal pricing for parts.',
-            'Developing an artificial intelligence virtual sales assistant for automatic order quoting and fulfilment.'
-        ],
-        'skills': ['ReactJs', 'JavaScript', 'REDUX', 'TypeScript', 'AWS', 'Python']
+        'title': 'Organiser Web App',
+        'description': 'Web application to help busy people manage tasks and recognise bad habits.',
+        'skills': ['Flutter', 'Dart', 'AWS', 'Python'],
+        'images': []
     },
     {
-        'duration': '2023 - 2023',
-        'title': 'Technology Internship - Mako Trading',
-        'subtitle': 'Software Engineer',
-        'tasks': [
-            'Designed an automatic hedging algorithm in Python with Monte Carlo simulations to optimise market making.',
-            'Applied statistical models to large datasets, analysed trends and backtested strategies in a Quant project.',
-            'Deployed stochastic process and game theory on live market making sessions with Volecube.',
-        ],
-        'skills': ['Python', 'Pandas', 'Numpy', 'Statistical Modelling']
+        'title': 'Facial Recognition Web App',
+        'description': 'Recreational web application to recognise any face uploaded to it.',
+        'skills': ['ReactJ', 'JavaScript', 'AWS', 'AWS Rekognition', 'Python'],
+        'images': []
     },
     {
-        'duration': '2022 - 2023',
-        'title': 'Freelancer - Upwork',
-        'subtitle': 'Software Engineer',
-        'tasks': [
-            'Architected micro-services with non-relational databases with AWS (DynamoDB, NoSQL, ECS, EC2...).',
-            'Developed high performing apps and websites with ReactJS, MUI, REDUX, React Query and TypeScript.',
-            'Earnt over $10,000 collaborating with other entrepreneurs to implement their innovations.',
-        ],
-        'skills': ['ReactJs', 'JavaScript', 'REDUX', 'TypeScript', 'AWS', 'Python']
+        'title': 'Dismantly Web App',
+        'description': 'Modern operating system for auto dismantlers to optimise and digitalise the global used auto parts supply chain.',
+        'skills': ['ReactJ', 'JavaScript', 'TypeScript', 'REDUX', 'AWS', 'Python'],
+        'images': []
     },
     {
-        'duration': '2021 - 2021',
-        'title': 'Technology Internship - MidChains',
-        'subtitle': 'Software Engineer',
-        'tasks': [
-            'Developed automated testing scripts with Puppeteer and unit tests with Cypress in Python.',
-            'Engineered frontend bug fixes in ReactJs, JavaScript and TypeScript for the production blockchain platform.',
-            'Researched and integrated Sentry and Mixpanel for software health and user interaction tracking.',
-        ],
-        'skills': ['ReactJs', 'JavaScript', 'Python', 'Puppeteer', 'Cypress']
-    }
+        'title': 'Dismantly Mobile App',
+        'description': 'Manage your inventory and business on the go.',
+        'skills': ['Flutter', 'Dart'],
+        'images': []
+    },
+    {
+        'title': 'Asterix Web App',
+        'description': 'Educational web application to help teachers save time with test assigning and grading.',
+        'skills': ['ReactJ', 'JavaScript', 'TypeScript', 'REDUX', 'AWS', 'Python'],
+        'images': []
+    },
+    {
+        'title': 'Xanta Website',
+        'description': 'Website for gift giving and receiving.',
+        'skills': ['ReactJ', 'JavaScript'],
+        'images': []
+    },
 ]
