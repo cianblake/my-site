@@ -6,7 +6,7 @@ export const DottedDivider = styled(Divider)({
 });
 
 export const StyledStack = styled(Stack)({
-    gap: '10px',
+    gap: '20px',
 });
 
 export const StyledButton = styled(Button)({

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Grid, Stack } from '@mui/material';
 import { StyledBodyTypography } from '../../../pages/styled';
-import { DottedDivider, StyledChip } from './styled';
+import { DottedDivider, StyledChip, StyledGrid } from './styled';
 
 function Listing({ duration, title, subtitle, tasks, skills }) {
 
   return (
-    <Grid container direction='row' spacing={1}>
+    <StyledGrid container direction='row' spacing={1}>
         <Grid item xs={4} sm={4} md={4} lg={4} xl={4}>
             <StyledBodyTypography>{duration}</StyledBodyTypography>
         </Grid>
@@ -30,7 +30,7 @@ function Listing({ duration, title, subtitle, tasks, skills }) {
                 </Grid>
             </Stack>
         </Grid>
-    </Grid>
+    </StyledGrid>
   );
 }
 

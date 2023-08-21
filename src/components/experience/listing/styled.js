@@ -1,4 +1,4 @@
-import { Divider, Chip } from '@material-ui/core';
+import { Divider, Chip, Grid } from '@material-ui/core';
 import styled from '@emotion/styled';
 
 export const DottedDivider = styled(Divider)({
@@ -13,4 +13,12 @@ export const StyledChip = styled(Chip)({
     fontStyle: 'normal',
     fontWeight: '400',
     lineHeight: '1.25rem',
+});
+
+export const StyledGrid = styled(Grid)({
+    padding: '6px 10px',
+    borderRadius: '4px',
+    '&:hover': {
+        backgroundColor: 'rgba(45, 212, 191, 0.1)'
+    }
 });

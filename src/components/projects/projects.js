@@ -7,8 +7,8 @@ import { StyledStack } from './styled.js';
 
 function Projects() {
   return (
-    <Stack marginBottom={'220px'}>
-        <StyledBodyTypography isAlternateColor>Projects</StyledBodyTypography>
+    <Stack marginBottom={'220px'} gap={'10px'}>
+        <StyledBodyTypography isAlternateColor sx={{margin:'0 10px'}}>Projects</StyledBodyTypography>
         <StyledStack>
           {projects.map((data, index) => (
               <Listing key={index} {...data} />
