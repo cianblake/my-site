@@ -1,16 +1,16 @@
 import React from 'react';
 import { Stack } from '@mui/material';
 import { StyledBodyTypography } from '../../pages/styled.js';
-import { experience } from './constant.js';
+import { projects } from './constant.js';
 import Listing from './listing/listing.js';
 import { StyledStack } from './styled.js';
 
-function Experience() {
+function Projects() {
   return (
     <Stack>
-        <StyledBodyTypography isAlternateColor>Experience</StyledBodyTypography>
+        <StyledBodyTypography isAlternateColor>Projects</StyledBodyTypography>
         <StyledStack>
-          {experience.map((data, index) => (
+          {projects.map((data, index) => (
               <Listing key={index} {...data} />
           ))}
         </StyledStack>
@@ -19,4 +19,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default Projects;

@@ -14,3 +14,9 @@ export const StyledChip = styled(Chip)({
     fontWeight: '400',
     lineHeight: '1.25rem',
 });
+
+export const StyledImage = styled('img')({
+    height: '100px',
+    width: '180px',
+    borderRadius: '4px',
+});

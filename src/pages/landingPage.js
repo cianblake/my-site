@@ -5,6 +5,7 @@ import NavBar from '../components/navBar/navBar';
 import Socials from '../components/socials/socials'
 import About from '../components/about/about';
 import Experience from '../components/experience/experience';
+import Projects from '../components/projects/projects';
 
 
 function LandingPage() {
@@ -32,6 +33,9 @@ function LandingPage() {
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
                     <Experience /> 
+                </Grid>
+                <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+                    <Projects /> 
                 </Grid>
             </StyledGrid>
         </StyledGridContainer>
