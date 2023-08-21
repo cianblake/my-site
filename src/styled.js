@@ -18,7 +18,7 @@ export const StyledBox = styled(Box)({
         left: 0,
         width: '100%',
         height: '100%',
-        background: 'radial-gradient(circle 100px at var(--x) var(--y), transparent 0%, rgba(0, 0, 0, 0.7) 150px)',
+        background: 'radial-gradient(circle 1000px at var(--x) var(--y), rgba(255, 255, 255, 0.12), transparent 1000px)',
         pointerEvents: 'none',
     },
 });
