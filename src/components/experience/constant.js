@@ -9,7 +9,7 @@ export const experience = [
             'Training a random forest machine learning model to suggest the optimal pricing for parts.',
             'Developing an artificial intelligence virtual sales assistant for automatic order quoting and fulfilment.'
         ],
-        'skills': ['ReactJs', 'JavaScript', 'REDUX', 'TypeScript', 'AWS', 'Python']
+        'skills': ['ReactJs', 'JavaScript', 'AWS', 'Python']
     },
     {
         'duration': '2023 - 2023',
@@ -20,7 +20,7 @@ export const experience = [
             'Applied statistical models to large datasets, analysed trends and backtested strategies in a Quant project.',
             'Deployed stochastic process and game theory on live market making sessions with Volecube.',
         ],
-        'skills': ['Python', 'Pandas', 'Numpy', 'Statistical Modelling']
+        'skills': ['Python', 'Pandas', 'Numpy', 'Statistics']
     },
     {
         'duration': '2022 - 2023',
@@ -31,7 +31,7 @@ export const experience = [
             'Developed high performing apps and websites with ReactJS, MUI, REDUX, React Query and TypeScript.',
             'Earnt over $10,000 collaborating with other entrepreneurs to implement their innovations.',
         ],
-        'skills': ['ReactJs', 'JavaScript', 'REDUX', 'TypeScript', 'AWS', 'Python']
+        'skills': ['ReactJs', 'JavaScript', 'AWS', 'Python']
     },
     {
         'duration': '2021 - 2021',
@@ -42,6 +42,6 @@ export const experience = [
             'Engineered frontend bug fixes in ReactJs, JavaScript and TypeScript for the production blockchain platform.',
             'Researched and integrated Sentry and Mixpanel for software health and user interaction tracking.',
         ],
-        'skills': ['ReactJs', 'JavaScript', 'Python', 'Puppeteer', 'Cypress']
+        'skills': ['ReactJs', 'Python', 'Puppeteer', 'Cypress']
     }
 ]
