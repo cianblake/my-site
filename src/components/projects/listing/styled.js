@@ -16,7 +16,8 @@ export const StyledChip = styled(Chip)({
 });
 
 export const StyledImage = styled('img')({
-    height: '100px',
+    height: '104px',
     width: '180px',
     borderRadius: '4px',
+    marginTop: '8px',
 });

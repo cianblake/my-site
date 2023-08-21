@@ -18,7 +18,7 @@ export const StyledBox = styled(Box)(({ theme }) => ({
 export const StyledGrid = styled(Grid)(({ theme }) => ({
   alignItems: 'flex-start',
   overflowY: 'auto',
-  margin: '20px 0',
+  margin: '20px 0 20px 0',
   height: '100vh',
   [theme.breakpoints.down('md')]: {
     overflowY: 'hidden',
