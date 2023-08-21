@@ -6,6 +6,7 @@ import Socials from '../components/socials/socials'
 import About from '../components/about/about';
 import Experience from '../components/experience/experience';
 import Projects from '../components/projects/projects';
+import { Element } from 'react-scroll';
 
 
 function LandingPage() {
@@ -29,13 +30,19 @@ function LandingPage() {
             </Grid>
             <StyledGrid container spacing={2} xs={12} sm={12} md={6} lg={6} xl={6} id="scrollable-section">
                 <Grid item xs={12} sm={12} md={12} lg={12} xl={12} id="about-section">
-                    <About />
+                    <Element name="about-section">
+                        <About />
+                    </Element>
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} lg={12} xl={12} id="experience-section">
-                    <Experience /> 
+                    <Element>
+                        <Experience name="experience-section"/>
+                    </Element>
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} lg={12} xl={12} id="projects-section">
-                    <Projects /> 
+                    <Element name="projects-section">
+                        <Projects /> 
+                    </Element>
                 </Grid>
             </StyledGrid>
         </StyledGridContainer>

@@ -3,6 +3,7 @@ import { StyledNavBarTitle } from './styled';
 import { Link } from 'react-scroll';
 
 function NavBar() {
+
   return (
     <Grid container direction='column'>
         <Grid item>
@@ -11,9 +12,11 @@ function NavBar() {
               smooth={true} 
               duration={500} 
               containerId="scrollable-section"
+              spy={true}
+              activeClass="active-section"
               style={{ display: 'block', zIndex: 1000 }}
             >
-                <StyledNavBarTitle isAlternateColor>About</StyledNavBarTitle>
+                <StyledNavBarTitle >About</StyledNavBarTitle>
             </Link>
         </Grid>
         <Grid item>
@@ -22,9 +25,11 @@ function NavBar() {
               smooth={true} 
               duration={500} 
               containerId="scrollable-section"
+              spy={true}
+              activeClass="active-section"
               style={{ display: 'block', zIndex: 1000 }}
             >
-                <StyledNavBarTitle>Experience</StyledNavBarTitle>
+              <StyledNavBarTitle >Experience</StyledNavBarTitle>
             </Link>
         </Grid>
         <Grid item>
@@ -33,9 +38,12 @@ function NavBar() {
               smooth={true} 
               duration={500} 
               containerId="scrollable-section"
+              spy={true}
+              activeClass="active-section"
               style={{ display: 'block', zIndex: 1000 }}
             >
-                <StyledNavBarTitle>Projects</StyledNavBarTitle>
+              
+                <StyledNavBarTitle >Projects</StyledNavBarTitle>
             </Link>
         </Grid>
     </Grid>
