@@ -9,7 +9,7 @@ function Socials() {
   return (
     <Grid container direction='row' >
         <Grid item>
-          <StyledIconButton href='https://www.linkedin.com/in/cian-blake/' target='_blank'>
+          <StyledIconButton href='https://www.linkedin.com/in/cian-blake/' target='_blank' sx={{ paddingLeft:0 }}>
             <LinkedInIcon />
           </StyledIconButton>
         </Grid>

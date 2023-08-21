@@ -9,6 +9,9 @@ export const StyledNavBarTitle = styled(Typography)(({ isAlternateColor }) => ({
     fontWeight: '400',
     lineHeight: '1rem',
     letterSpacing: '0.075rem',
-    textTransform: 'uppercase'
+    textTransform: 'uppercase',
+    cursor: 'pointer',
+    '&:hover': {
+        color: '#E2E8F0'
+    }
 }));
-
