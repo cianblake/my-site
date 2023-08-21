@@ -28,6 +28,7 @@ export const StyledGrid = styled(Grid)(({ theme }) => ({
 export const StyledGridContainer = styled(Grid)({
     width: '100%',
     direction: 'row',
+    height: 'calc(100vh - 100px)',
 });
 
 export const StyledTitleTypography = styled(Typography)({
