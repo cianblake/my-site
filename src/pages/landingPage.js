@@ -27,14 +27,14 @@ function LandingPage() {
                     <Socials />
                 </Stack>
             </Grid>
-            <StyledGrid container spacing={2} xs={12} sm={12} md={6} lg={6} xl={6}>
-                <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+            <StyledGrid container spacing={2} xs={12} sm={12} md={6} lg={6} xl={6} id="scrollable-section">
+                <Grid item xs={12} sm={12} md={12} lg={12} xl={12} id="about-section">
                     <About />
                 </Grid>
-                <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+                <Grid item xs={12} sm={12} md={12} lg={12} xl={12} id="experience-section">
                     <Experience /> 
                 </Grid>
-                <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+                <Grid item xs={12} sm={12} md={12} lg={12} xl={12} id="projects-section">
                     <Projects /> 
                 </Grid>
             </StyledGrid>
