@@ -22,6 +22,7 @@ export const StyledGrid = styled(Grid)(({ theme }) => ({
   height: '100vh',
   [theme.breakpoints.down('md')]: {
     overflowY: 'hidden',
+    height: 'auto',
   },
 }));
 

@@ -1,7 +1,7 @@
 import { Box } from '@mui/material';
 import styled from '@emotion/styled';
 
-export const StyledBox = styled(Box)({
+export const StyledBox = styled(Box)(({ theme }) => ({
     position: 'relative',
     display: 'flex',
     justifyContent: 'center',
@@ -21,4 +21,7 @@ export const StyledBox = styled(Box)({
         background: 'radial-gradient(circle 1000px at var(--x) var(--y), rgba(255, 255, 255, 0.12), transparent 1000px)',
         pointerEvents: 'none',
     },
-});
+    [theme.breakpoints.down('md')]: {
+        overflow: 'scroll',
+    },
+}));
