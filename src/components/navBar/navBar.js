@@ -16,7 +16,7 @@ function NavBar() {
               activeClass="active-section"
               style={{ display: 'block', zIndex: 1000 }}
             >
-                <StyledNavBarTitle >About</StyledNavBarTitle>
+                <StyledNavBarTitle sx={{margin:'0 10px'}}>About</StyledNavBarTitle>
             </Link>
         </Grid>
         <Grid item>
@@ -29,7 +29,7 @@ function NavBar() {
               activeClass="active-section"
               style={{ display: 'block', zIndex: 1000 }}
             >
-              <StyledNavBarTitle >Experience</StyledNavBarTitle>
+              <StyledNavBarTitle sx={{margin:'0 10px'}}>Experience</StyledNavBarTitle>
             </Link>
         </Grid>
         <Grid item>
@@ -43,7 +43,7 @@ function NavBar() {
               style={{ display: 'block', zIndex: 1000 }}
             >
               
-                <StyledNavBarTitle >Projects</StyledNavBarTitle>
+                <StyledNavBarTitle sx={{margin:'0 10px'}}>Projects</StyledNavBarTitle>
             </Link>
         </Grid>
     </Grid>

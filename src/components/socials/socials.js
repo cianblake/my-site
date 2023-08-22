@@ -7,7 +7,7 @@ import { StyledIconButton } from './styled';
 
 function Socials() {
   return (
-    <Grid container direction='row' >
+    <Grid container direction='row' sx={{margin:'0 10px'}}>
         <Grid item>
           <StyledIconButton href='https://www.linkedin.com/in/cian-blake/' target='_blank' sx={{ paddingLeft:0 }}>
             <LinkedInIcon />

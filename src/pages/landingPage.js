@@ -16,9 +16,9 @@ function LandingPage() {
             <Grid alignSelf="flex-start" item xs={12} sm={12} md={6} lg={6} xl={6} alignItems={'flex-start'} direction={'column'} display={'flex'} gap="100px">
                 <Stack gap="100px" justifyContent={'space-between'}>
                     <Stack gap="20px">
-                        <StyledTitleTypography>Cian Blake</StyledTitleTypography>
-                        <StyledSubTitleTypography>Software Engineer</StyledSubTitleTypography>
-                        <StyledBodyTypography>I design, architect and develop software solutions with real world impact.</StyledBodyTypography>
+                        <StyledTitleTypography sx={{margin:'0 10px'}}>Cian Blake</StyledTitleTypography>
+                        <StyledSubTitleTypography sx={{margin:'0 10px'}}>Software Engineer</StyledSubTitleTypography>
+                        <StyledBodyTypography sx={{margin:'0 10px'}}>I design, architect and develop software solutions with real world impact.</StyledBodyTypography>
                     </Stack>
                     <Stack>
                         <NavBar />
