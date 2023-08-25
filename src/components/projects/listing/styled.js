@@ -15,12 +15,15 @@ export const StyledChip = styled(Chip)({
     lineHeight: '1.25rem',
 });
 
-export const StyledImage = styled('img')({
-    height: '104px',
+export const StyledImage = styled('img')(({ theme }) => ({
+    height: 'auto', // To maintain aspect ratio
     width: '180px',
     borderRadius: '4px',
     marginTop: '8px',
-});
+    [theme.breakpoints.down('sm')]: {
+        width: '100%',
+    }
+}));
 
 export const StyledGrid = styled(Grid)({
     padding: '6px 10px',
