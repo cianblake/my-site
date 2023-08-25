@@ -7,10 +7,10 @@ function Listing({ duration, title, subtitle, tasks, skills }) {
 
   return (
     <StyledGrid container direction='row' spacing={1}>
-        <Grid item xs={4} sm={4} md={4} lg={4} xl={4}>
+        <Grid item xs={12} sm={4} md={4} lg={4} xl={4}>
             <StyledBodyTypography>{duration}</StyledBodyTypography>
         </Grid>
-        <Grid item xs={8} sm={8} md={8} lg={8} xl={8}>
+        <Grid item xs={12} sm={8} md={8} lg={8} xl={8}>
             <Stack gap='4px'>
                 <StyledBodyTypography isAlternateColor>{title}</StyledBodyTypography>
                 <StyledBodyTypography>{subtitle}</StyledBodyTypography>
