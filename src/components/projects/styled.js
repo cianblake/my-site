@@ -13,6 +13,6 @@ export const StyledOuterStack = styled(Stack)(({ theme }) => ({
     gap: '20px',
     marginBottom: '220px',
     [theme.breakpoints.down('md')]: {
-        marginBottom: '0px',
+        marginBottom: '40px',
     }
 }));
