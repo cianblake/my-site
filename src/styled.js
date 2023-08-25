@@ -23,5 +23,8 @@ export const StyledBox = styled(Box)(({ theme }) => ({
     },
     [theme.breakpoints.down('md')]: {
         overflow: 'scroll',
+        '&::before': {
+            background: 'none',
+        },
     },
 }));
