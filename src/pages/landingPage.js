@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Stack } from '@mui/material';
+import { Grid, Stack, Hidden } from '@mui/material'; // <-- Import Hidden here
 import { StyledBox, StyledGridContainer, StyledBodyTypography, StyledTitleTypography, StyledSubTitleTypography, StyledGrid } from './styled';
 import NavBar from '../components/navBar/navBar';
 import Socials from '../components/socials/socials'
@@ -7,7 +7,6 @@ import About from '../components/about/about';
 import Experience from '../components/experience/experience';
 import Projects from '../components/projects/projects';
 import { Element } from 'react-scroll';
-
 
 function LandingPage() {
   return (
@@ -20,9 +19,11 @@ function LandingPage() {
                         <StyledSubTitleTypography sx={{margin:'0 10px'}}>Software Engineer</StyledSubTitleTypography>
                         <StyledBodyTypography sx={{margin:'0 10px'}}>I design, architect and develop software solutions with real world impact.</StyledBodyTypography>
                     </Stack>
-                    <Stack>
-                        <NavBar />
-                    </Stack>
+                    <Hidden xsDown smDown mdDown>
+                        <Stack>
+                            <NavBar />
+                        </Stack>
+                    </Hidden>
                 </Stack>
                 <Stack>
                     <Socials />
