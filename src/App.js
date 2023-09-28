@@ -1,4 +1,5 @@
 import LandingPage from './pages/landingPage';
+import PortfolioPage from './pages/portfolioPage';
 import { StyledBox } from './styled';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { useState, useEffect } from 'react';
@@ -23,7 +24,8 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <StyledBox style={{ '--x': position.x, '--y': position.y }}>
-        <LandingPage />
+        {/* <LandingPage /> */}
+        <PortfolioPage />
       </StyledBox>
     </ThemeProvider>
   );
