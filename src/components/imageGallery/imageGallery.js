@@ -21,7 +21,7 @@ function ImageGallery({ images }) {
 
   return (
     <StyledOuterStack gap='20px'>
-      <StyledMainImage src='/assets/organiser_1.png' alt='' onClick={() => openLightbox(0)} />
+      <StyledMainImage src={images[0]} alt='' onClick={() => openLightbox(0)} />
       {/* Render thumbnails only if the screen is not small */}
       {!isSmallScreen && (
         <OverflowStack>

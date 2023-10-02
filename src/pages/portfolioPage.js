@@ -45,7 +45,7 @@ function PortfolioPage() {
                             ))}
                         </Grid>
                     </Stack>
-                    <Stack gap='20px' overflow={'auto'}>
+                    <Stack gap='20px' overflow={isSmallScreen ? 'none' : 'auto'}>
                     {project.text_sections.map((section, index) => (
                         <TextSection key={index} title={section.title} body={section.body} isCode={section?.isCode || false} />
                     ))}
