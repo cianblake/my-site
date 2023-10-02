@@ -1,5 +1,6 @@
 import { Box, Grid, Typography } from '@mui/material';
 import styled from '@emotion/styled';
+import { Link } from 'react-router-dom'; // Import Link
 
 export const StyledBox = styled(Box)(({ theme }) => ({
   height: '100%',
@@ -61,3 +62,6 @@ export const StyledBodyTypography = styled(Typography)(({ isAlternateColor, isCo
     lineHeight: '1.5rem',
 }));
 
+export const StyledLink = styled(Link)({
+    color: 'rgb(94, 234, 212)',
+});

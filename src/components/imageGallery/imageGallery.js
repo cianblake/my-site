@@ -1,11 +1,13 @@
 import React, { useState, useCallback } from 'react';
-import { Grid } from '@mui/material';
+import { Grid, useMediaQuery, useTheme } from '@mui/material'; // Import useMediaQuery and useTheme
 import { StyledOuterStack, StyledMainImage, StyledThumbImage, OverflowStack } from './styled.js';
 import Carousel, { Modal, ModalGateway } from "react-images";
 
 function ImageGallery({ images }) {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
+  const theme = useTheme(); // Use the theme
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down('md')); // Check if the screen width is small
 
   const openLightbox = useCallback((index) => {
     setCurrentImage(index);
@@ -20,17 +22,20 @@ function ImageGallery({ images }) {
   return (
     <StyledOuterStack gap='20px'>
       <StyledMainImage src='/assets/organiser_1.png' alt='' onClick={() => openLightbox(0)} />
-      <OverflowStack>
-        <Grid container direction='row' gap='20px'>
-          {images.map((image, index) => {
-            return (
-              <Grid item key={index}>
-                <StyledThumbImage src={image} alt='' onClick={() => openLightbox(index)} />
-              </Grid>
-            )
-          })}
-        </Grid>
-      </OverflowStack>
+      {/* Render thumbnails only if the screen is not small */}
+      {!isSmallScreen && (
+        <OverflowStack>
+          <Grid container direction='row' gap='20px'>
+            {images.map((image, index) => {
+              return (
+                <Grid item key={index}>
+                  <StyledThumbImage src={image} alt='' onClick={() => openLightbox(index)} />
+                </Grid>
+              )
+            })}
+          </Grid>
+        </OverflowStack>
+      )}
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>

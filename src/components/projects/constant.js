@@ -3,7 +3,7 @@ export const projects = [
         id: 'organiser',
         title: 'Organiser Web App',
         description: 'Web application to help busy people manage tasks and recognise bad habits.',
-        skills: ['Flutter', 'Dart', 'AWS', 'Python'],
+        skills: ['Flutter', 'Dart', 'AWS', 'Python','dddddddd', ,'dddddddd', ,'dddddddd', ,'dddddddd', ,'dddddddd'],
         images: ['/assets/organiser_1.png', '/assets/organiser_2.png', '/assets/organiser_3.png'],
         text_sections: [
             {
