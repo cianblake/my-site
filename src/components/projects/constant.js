@@ -1,5 +1,6 @@
 export const projects = [
     {
+        id: 'organiser',
         title: 'Organiser Web App',
         description: 'Web application to help busy people manage tasks and recognise bad habits.',
         skills: ['Flutter', 'Dart', 'AWS', 'Python'],
@@ -30,6 +31,7 @@ export const projects = [
         ],
     },
     {
+        id: 'recognition',
         title: 'Facial Recognition Web App',
         description: 'Recreational web application to recognise any face uploaded to it.',
         skills: ['ReactJ', 'JavaScript', 'AWS', 'Python'],
@@ -59,6 +61,7 @@ export const projects = [
         ],
     },
     {
+        id: 'dismantly',
         title: 'Dismantly Web App',
         description: 'Multi-tenant inventory management web application.',
         skills: ['ReactJ', 'JavaScript', 'AWS', 'Python'],
@@ -88,6 +91,7 @@ export const projects = [
         ],
     },
     {
+        id: 'dismantly_mobile',
         title: 'Dismantly Mobile App',
         description: 'Manage your inventory and business on the go.',
         skills: ['Flutter', 'Dart'],
@@ -117,6 +121,7 @@ export const projects = [
         ],
     },
     {
+        id: 'asterix',
         title: 'Asterix Web App',
         description: 'Educational web application to help teachers save time with test assigning and grading.',
         skills: ['ReactJ', 'JavaScript', 'AWS', 'Python'],
@@ -146,6 +151,7 @@ export const projects = [
         ],
     },
     {
+        id: 'xanta',
         title: 'Xanta Website',
         description: 'Website for gift giving and receiving.',
         skills: ['ReactJ', 'JavaScript'],

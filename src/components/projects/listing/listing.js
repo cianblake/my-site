@@ -3,10 +3,10 @@ import { Grid, Stack } from '@mui/material';
 import { StyledBodyTypography } from '../../../pages/styled';
 import { StyledChip, StyledImage, StyledGrid } from './styled';
 
-function Listing({ title, description, skills, images }) {
+function Listing({ title, description, skills, images, onProjectClick }) {
 
   return (
-    <StyledGrid container direction='row' spacing={1} >
+    <StyledGrid container direction='row' spacing={1} onClick={onProjectClick}>
         <Grid item xs={12} sm={4} md={4} lg={4} xl={4}>
             <StyledImage alt='first' src={images[0]} />
         </Grid>
