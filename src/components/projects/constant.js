@@ -459,6 +459,107 @@ export const projects = [
         ],
     },
     {
+        id: 'dismantly',
+        title: 'Dismantly Web App',
+        description: 'Multi-tenant inventory management web application.',
+        skills: ['ReactJs', 'JavaScript', 'AWS', 'Python'],
+        images: ['/assets/dismantly/1.png', '/assets/dismantly/2.png', '/assets/dismantly/3.png', '/assets/dismantly/4.png', '/assets/dismantly/5.png'],
+        "text_sections": [
+            {
+                "title": "Abstract",
+                "body": "In the realm of inventory management, efficiency and accuracy are paramount. The Dismantly Web App is a multi-tenant inventory management web application designed to streamline the process of inventory management, making it easier for businesses to keep track of their inventory, reduce errors, and optimize warehouse organization."
+            },
+            {
+                "title": "Problem",
+                "body": "Traditional inventory management systems often involve manual processes that are time-consuming and prone to error. Additionally, these systems may not scale well with the growth of the business, leading to increased complexity, inefficiency, and the potential for significant losses due to mismanagement of inventory."
+            },
+            {
+                "title": "Solution",
+                "body": "The Dismantly Web App addresses these challenges by providing a robust, scalable, and user-friendly platform for inventory management. Built using ReactJs and Python and hosted on AWS, the application offers high performance, reliability, and security. Users can easily track, manage, and analyze their inventory, ensuring that the right products are in the right place at the right time."
+            },
+            {
+                "title": "Technical Specifications",
+                "body": "The Dismantly Web App is built using cutting-edge technologies including ReactJs for the frontend, Python for backend processing, and AWS for hosting and other cloud services. This technology stack ensures seamless operation, high availability, and consistent performance, meeting the demands of modern businesses."
+            }
+        ]
+    },
+    {
+        id: 'dismantly_mobile',
+        title: 'Dismantly Mobile App',
+        description: 'Manage your inventory and business on the go.',
+        skills: ['Flutter', 'Dart'],
+        images: ['/assets/dismantly_mobile/1.png', '/assets/dismantly_mobile/2.png', '/assets/dismantly_mobile/3.png', '/assets/dismantly_mobile/4.png', '/assets/dismantly_mobile/5.png', '/assets/dismantly_mobile/6.png'],
+        "text_sections": [
+            {
+                "title": "Abstract",
+                "body": "In today's fast-paced world, managing inventory and business operations should not be confined to a desk. The Dismantly Mobile App breaks these boundaries by offering a comprehensive inventory management solution on the go. This mobile application, built with Flutter and Dart, allows users to seamlessly manage their inventory, track orders, and oversee business operations from anywhere, ensuring that business owners stay in control and make informed decisions even while away from the business premises."
+            },
+            {
+                "title": "Problem",
+                "body": "Inventory management for businesses often requires constant attention and oversight. Traditional systems that are confined to desktop applications or paper-based methods limit the flexibility and mobility of business owners and managers. This limitation can lead to delayed decisions, inefficient operations, and potential losses due to the lack of real-time inventory oversight."
+            },
+            {
+                "title": "Solution",
+                "body": "The Dismantly Mobile App is the answer to these challenges. It provides a robust and user-friendly mobile platform for real-time inventory management. Users can add, update, and monitor inventory items, track orders, and get insights into inventory status and trends, all from their mobile devices. The app's intuitive interface and efficient design ensure that even complex inventory tasks can be handled smoothly on the go."
+            },
+            {
+                "title": "Technical Specifications",
+                "body": "The Dismantly Mobile App is built using Flutter for cross-platform compatibility, ensuring that the app runs smoothly on both Android and iOS devices. Dart, a robust and efficient language, is used for coding the app, ensuring optimal performance and reliability. The app is designed with a focus on user experience, ensuring that inventory management tasks are straightforward and hassle-free."
+            }
+        ]
+    },
+    {
+        id: 'asterix',
+        title: 'Asterix Web App',
+        description: 'Educational web application to help teachers save time with test assigning and grading.',
+        skills: ['ReactJ', 'JavaScript', 'AWS', 'Python'],
+        images: ['/assets/asterix/1.png', '/assets/asterix/2.png', '/assets/asterix/3.png', '/assets/asterix/4.png', '/assets/asterix/5.png'],
+        "text_sections": [
+            {
+                "title": "Abstract",
+                "body": "The Asterix Web App is a cutting-edge educational platform designed to streamline the process of assigning and grading tests for teachers. In the educational sector, time is a precious resource, and the Asterix Web App is committed to ensuring that educators can focus on what matters most - teaching and nurturing students. This application is built using ReactJS, JavaScript, AWS, and Python, combining robust functionality with seamless, user-friendly navigation."
+            },
+            {
+                "title": "Problem",
+                "body": "Teachers often find themselves bogged down by the administrative task of assigning and grading tests. This time-consuming work detracts from their primary role as educators and mentors. Traditional methods of test management and grading are often manual, error-prone, and inefficient, leading to delays and potential inaccuracies in grading and feedback."
+            },
+            {
+                "title": "Solution",
+                "body": "The Asterix Web App offers an innovative solution to these challenges. It automates the process of test assignment and grading, allowing teachers to create, assign, and grade tests with ease. The application uses advanced algorithms to ensure accurate and fair grading, while also providing insightful analytics and feedback to help teachers enhance their teaching methods and test designs."
+            },
+            {
+                "title": "Technical Specifications",
+                "body": "The Asterix Web App is built using ReactJS for a responsive and dynamic user interface, ensuring compatibility and optimal performance across various devices and browsers. The backend is powered by Python, ensuring efficient data processing and handling. AWS is used for secure and scalable cloud hosting, ensuring that the application is always accessible and responsive, even with a large number of users."
+            }
+        ]
+    },
+    {
+        id: 'xanta',
+        title: 'Xanta Website',
+        description: 'Website for gift giving and receiving.',
+        skills: ['ReactJ', 'JavaScript'],
+        images: ['/assets/xanta/1.png', '/assets/xanta/2.png', '/assets/xanta/3.png', '/assets/xanta/4.png', '/assets/xanta/5.png', '/assets/xanta/6.png', '/assets/xanta/7.png', '/assets/xanta/8.png', '/assets/xanta/9.png'],
+        text_sections: [
+            {
+                "title": "Abstract",
+                "body": "Xanta Website is a dedicated platform designed to simplify and enhance the experience of gift giving and receiving. Built with React and JavaScript, it provides a seamless and user-friendly interface for users to manage their gifting activities, ensuring that every occasion is celebrated with the perfect gift."
+            },
+            {
+                "title": "Problem",
+                "body": "The traditional process of gift giving can be filled with uncertainty, confusion, and lack of coordination, leading to unsatisfactory gifting experiences for both the giver and receiver."
+            },
+            {
+                "title": "Solution",
+                "body": "Xanta Website offers a centralized platform for users to easily find, select, and send gifts, ensuring that every gift is meaningful and appreciated. It also allows users to create wish lists, making it easier for others to choose the perfect gift."
+            },
+            {
+                "title": "Technical Specifications",
+                "body": "Built using ReactJ and JavaScript, the Xanta Website offers robust functionality and a responsive design, ensuring a seamless user experience across various devices and browsers."
+            }
+        ]
+
+    },
+    {
         id: 'recognition',
         title: 'Facial Recognition Web App',
         description: 'Recreational web application to recognise any face uploaded to it.',
@@ -532,106 +633,5 @@ export const projects = [
                 body: 'The Facial Recognition Web App stands as a testament to the advancements in facial recognition technology, offering users a firsthand experience of its capabilities. The application’s robust architecture, built with ReactJs, JavaScript, AWS, and Python, ensures optimal performance and a seamless user experience.'
             }
         ],
-    },
-    {
-        id: 'dismantly',
-        title: 'Dismantly Web App',
-        description: 'Multi-tenant inventory management web application.',
-        skills: ['ReactJs', 'JavaScript', 'AWS', 'Python'],
-        images: ['/assets/dismantly_web_1.png'],
-        "text_sections": [
-            {
-                "title": "Abstract",
-                "body": "In the realm of inventory management, efficiency and accuracy are paramount. The Dismantly Web App is a multi-tenant inventory management web application designed to streamline the process of inventory management, making it easier for businesses to keep track of their inventory, reduce errors, and optimize warehouse organization."
-            },
-            {
-                "title": "Problem",
-                "body": "Traditional inventory management systems often involve manual processes that are time-consuming and prone to error. Additionally, these systems may not scale well with the growth of the business, leading to increased complexity, inefficiency, and the potential for significant losses due to mismanagement of inventory."
-            },
-            {
-                "title": "Solution",
-                "body": "The Dismantly Web App addresses these challenges by providing a robust, scalable, and user-friendly platform for inventory management. Built using ReactJs and Python and hosted on AWS, the application offers high performance, reliability, and security. Users can easily track, manage, and analyze their inventory, ensuring that the right products are in the right place at the right time."
-            },
-            {
-                "title": "Technical Specifications",
-                "body": "The Dismantly Web App is built using cutting-edge technologies including ReactJs for the frontend, Python for backend processing, and AWS for hosting and other cloud services. This technology stack ensures seamless operation, high availability, and consistent performance, meeting the demands of modern businesses."
-            }
-        ]
-    },
-    {
-        id: 'dismantly_mobile',
-        title: 'Dismantly Mobile App',
-        description: 'Manage your inventory and business on the go.',
-        skills: ['Flutter', 'Dart'],
-        images: ['/assets/dismantly_mobile_1.png'],
-        "text_sections": [
-            {
-                "title": "Abstract",
-                "body": "In today's fast-paced world, managing inventory and business operations should not be confined to a desk. The Dismantly Mobile App breaks these boundaries by offering a comprehensive inventory management solution on the go. This mobile application, built with Flutter and Dart, allows users to seamlessly manage their inventory, track orders, and oversee business operations from anywhere, ensuring that business owners stay in control and make informed decisions even while away from the business premises."
-            },
-            {
-                "title": "Problem",
-                "body": "Inventory management for businesses often requires constant attention and oversight. Traditional systems that are confined to desktop applications or paper-based methods limit the flexibility and mobility of business owners and managers. This limitation can lead to delayed decisions, inefficient operations, and potential losses due to the lack of real-time inventory oversight."
-            },
-            {
-                "title": "Solution",
-                "body": "The Dismantly Mobile App is the answer to these challenges. It provides a robust and user-friendly mobile platform for real-time inventory management. Users can add, update, and monitor inventory items, track orders, and get insights into inventory status and trends, all from their mobile devices. The app's intuitive interface and efficient design ensure that even complex inventory tasks can be handled smoothly on the go."
-            },
-            {
-                "title": "Technical Specifications",
-                "body": "The Dismantly Mobile App is built using Flutter for cross-platform compatibility, ensuring that the app runs smoothly on both Android and iOS devices. Dart, a robust and efficient language, is used for coding the app, ensuring optimal performance and reliability. The app is designed with a focus on user experience, ensuring that inventory management tasks are straightforward and hassle-free."
-            }
-        ]
-    },
-    {
-        id: 'asterix',
-        title: 'Asterix Web App',
-        description: 'Educational web application to help teachers save time with test assigning and grading.',
-        skills: ['ReactJ', 'JavaScript', 'AWS', 'Python'],
-        images: ['/assets/asterix_1.png'],
-        "text_sections": [
-            {
-                "title": "Abstract",
-                "body": "The Asterix Web App is a cutting-edge educational platform designed to streamline the process of assigning and grading tests for teachers. In the educational sector, time is a precious resource, and the Asterix Web App is committed to ensuring that educators can focus on what matters most - teaching and nurturing students. This application is built using ReactJS, JavaScript, AWS, and Python, combining robust functionality with seamless, user-friendly navigation."
-            },
-            {
-                "title": "Problem",
-                "body": "Teachers often find themselves bogged down by the administrative task of assigning and grading tests. This time-consuming work detracts from their primary role as educators and mentors. Traditional methods of test management and grading are often manual, error-prone, and inefficient, leading to delays and potential inaccuracies in grading and feedback."
-            },
-            {
-                "title": "Solution",
-                "body": "The Asterix Web App offers an innovative solution to these challenges. It automates the process of test assignment and grading, allowing teachers to create, assign, and grade tests with ease. The application uses advanced algorithms to ensure accurate and fair grading, while also providing insightful analytics and feedback to help teachers enhance their teaching methods and test designs."
-            },
-            {
-                "title": "Technical Specifications",
-                "body": "The Asterix Web App is built using ReactJS for a responsive and dynamic user interface, ensuring compatibility and optimal performance across various devices and browsers. The backend is powered by Python, ensuring efficient data processing and handling. AWS is used for secure and scalable cloud hosting, ensuring that the application is always accessible and responsive, even with a large number of users."
-            }
-        ]
-    },
-    {
-        id: 'xanta',
-        title: 'Xanta Website',
-        description: 'Website for gift giving and receiving.',
-        skills: ['ReactJ', 'JavaScript'],
-        images: ['/assets/xanta_1.png'],
-        text_sections: [
-            {
-                "title": "Abstract",
-                "body": "Xanta Website is a dedicated platform designed to simplify and enhance the experience of gift giving and receiving. Built with React and JavaScript, it provides a seamless and user-friendly interface for users to manage their gifting activities, ensuring that every occasion is celebrated with the perfect gift."
-            },
-            {
-                "title": "Problem",
-                "body": "The traditional process of gift giving can be filled with uncertainty, confusion, and lack of coordination, leading to unsatisfactory gifting experiences for both the giver and receiver."
-            },
-            {
-                "title": "Solution",
-                "body": "Xanta Website offers a centralized platform for users to easily find, select, and send gifts, ensuring that every gift is meaningful and appreciated. It also allows users to create wish lists, making it easier for others to choose the perfect gift."
-            },
-            {
-                "title": "Technical Specifications",
-                "body": "Built using ReactJ and JavaScript, the Xanta Website offers robust functionality and a responsive design, ensuring a seamless user experience across various devices and browsers."
-            }
-        ]
-
     }
 ];

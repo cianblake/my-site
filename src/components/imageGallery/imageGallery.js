@@ -21,9 +21,11 @@ function ImageGallery({ images }) {
 
   return (
     <StyledOuterStack gap='20px'>
+    {!images[0].includes('mobile') && (
       <StyledMainImage src={images[0]} alt='' onClick={() => openLightbox(0)} />
+    )}
       {/* Render thumbnails only if the screen is not small */}
-      {!isSmallScreen && (
+      {!(isSmallScreen && !images[0].includes('mobile')) && (
         <OverflowStack>
           <Grid container direction='row' gap='20px'>
             {images.map((image, index) => {

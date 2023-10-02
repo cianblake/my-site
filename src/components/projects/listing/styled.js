@@ -22,7 +22,8 @@ export const StyledImage = styled('img')(({ theme }) => ({
     marginTop: '8px',
     [theme.breakpoints.down('sm')]: {
         width: '100%',
-    }
+    },
+    maxHeight: '135px',
 }));
 
 export const StyledGrid = styled(Grid)({
