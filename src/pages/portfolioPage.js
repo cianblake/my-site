@@ -9,7 +9,7 @@ import TextSection from '../components/textSection/textSection';
 function PortfolioPage() {
   return (
     <StyledBox>
-        <StyledGridContainer container spacing={2}>
+        <StyledGridContainer container spacing={5}> {/* Updated the spacing here */}
             <Grid 
               item 
               xs={12} 
@@ -42,7 +42,7 @@ function PortfolioPage() {
                 </Stack>
             </Grid>
             <StyledGrid 
-              container 
+              item 
               spacing={2} 
               xs={12} 
               sm={12} 
