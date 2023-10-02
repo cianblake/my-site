@@ -52,8 +52,8 @@ export const StyledSubTitleTypography = styled(Typography)({
     letterSpacing: '0.03125rem',
 });
 
-export const StyledBodyTypography = styled(Typography)(({ isAlternateColor }) => ({
-    color: isAlternateColor ? '#E2E8F0' : '#94A3B8',
+export const StyledBodyTypography = styled(Typography)(({ isAlternateColor, isCodeColor }) => ({
+    color: isAlternateColor ? '#E2E8F0' : isCodeColor ? '#5EEAD4' : '#94A3B8',
     fontFamily: 'Courier',
     fontSize: '1rem',
     fontStyle: 'normal',

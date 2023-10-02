@@ -11,6 +11,7 @@ export const StyledStack = styled(Stack)({
 
 export const StyledOuterStack = styled(Stack)({
     maxHeight: 'calc(100vh - 100px)',
+    width: '100%',
 });
 
 export const StyledMainImage = styled('img')({
